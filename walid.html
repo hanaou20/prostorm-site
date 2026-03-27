@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HydroEditorial | The Fluid Authority</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,700&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-primary": "#ffffff",
+              "on-tertiary-fixed": "#351000",
+              "surface-bright": "#f7f9fb",
+              "secondary-fixed-dim": "#a7c8ff",
+              "on-tertiary-fixed-variant": "#7a3000",
+              "on-error": "#ffffff",
+              "on-surface-variant": "#424752",
+              "primary-container": "#005eb8",
+              "outline-variant": "#c2c6d4",
+              "primary": "#00478d",
+              "error": "#ba1a1a",
+              "on-secondary-fixed-variant": "#1f477b",
+              "on-error-container": "#93000a",
+              "secondary-container": "#9fc2fe",
+              "surface-container-lowest": "#ffffff",
+              "on-secondary-fixed": "#001b3c",
+              "surface-container-high": "#e6e8ea",
+              "inverse-surface": "#2d3133",
+              "on-primary-fixed-variant": "#00468c",
+              "tertiary": "#7c3000",
+              "surface-variant": "#e0e3e5",
+              "on-tertiary": "#ffffff",
+              "surface-container": "#eceef0",
+              "on-tertiary-container": "#ffd0bb",
+              "on-surface": "#191c1e",
+              "surface-dim": "#d8dadc",
+              "on-primary-container": "#c8daff",
+              "secondary": "#3a5f94",
+              "surface-tint": "#005db6",
+              "primary-fixed": "#d6e3ff",
+              "on-background": "#191c1e",
+              "inverse-on-surface": "#eff1f3",
+              "outline": "#727783",
+              "tertiary-fixed": "#ffdbcc",
+              "background": "#f7f9fb",
+              "surface-container-low": "#f2f4f6",
+              "surface-container-highest": "#e0e3e5",
+              "error-container": "#ffdad6",
+              "tertiary-container": "#a24100",
+              "surface": "#f7f9fb",
+              "tertiary-fixed-dim": "#ffb693",
+              "on-primary-fixed": "#001b3d",
+              "on-secondary-container": "#294f83",
+              "inverse-primary": "#a9c7ff",
+              "primary-fixed-dim": "#a9c7ff",
+              "secondary-fixed": "#d5e3ff",
+              "on-secondary": "#ffffff"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Manrope", "sans-serif"],
+              "label": ["Manrope", "sans-serif"],
+              "serif": ["Noto Serif", "serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+            scale: { '102': '1.02', '98': '0.98' }
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-nav {
+        backdrop-filter: blur(20px);
+      }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopNavBar: Simplified -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-xl shadow-sm">
+<div class="flex justify-between items-center px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="font-serif text-2xl font-bold italic text-blue-900 dark:text-blue-100">Prostorm</div>
+<div class="flex items-center gap-4">
+</div>
+</div>
+</nav>
+<main class="pt-16">
+<!-- Hero Section -->
+<section class="relative h-[90vh] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="dramatic action shot of a professional swimmer mid-stroke" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFrH3cyGzVLdHRoUArWqWC0BWFr-_mNoqRcDIRT6avk4gUWgAp951oWOY4OoRx-Vql7WDL9KSO5MqWWlSA06F3lspVovQI9SgV2HwjIpu7q7PT6bLh0BO1n91riuw0B752swLWAqksLNYgeJ6VKEcQfpscRZAY0zp1RrCKoc5wneu2U8fM2ipHw6s2l0wrbGJ72fB4flhies9jMW7kwR8H4lP1Idg4w34ieEWIJne1uW4hpGcuXWak5KC9j6rzCjAY8bt_yCNT7D8"/>
+<div class="absolute inset-0 bg-gradient-to-r from-primary/90 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-8 w-full">
+<div class="max-w-3xl">
+<span class="inline-block bg-secondary-container/30 backdrop-blur-md text-on-secondary-container px-4 py-1 rounded-full font-label text-sm font-bold tracking-widest uppercase mb-6">Current Edition</span>
+<h1 class="font-serif text-6xl md:text-8xl font-extrabold text-on-primary leading-[1.1] mb-8 tracking-tighter">
+                        Dive into the Future of Swimming.
+                    </h1>
+<p class="text-xl md:text-2xl text-on-primary-container font-light leading-relaxed mb-10 max-w-xl opacity-90 font-body">
+                        The definitive analysis on hydro-performance, neuro-mechanics, and the next decade of aquatic dominance.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Visual Highlights Section -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-16">
+<h2 class="font-serif text-4xl font-bold text-primary mb-4">Inside the Investigation</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto font-body text-lg">A multi-media exploration of elite performance through the lens of biomechanical science.</p>
+</div>
+<!-- Expanded Gallery Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Highlight 1: The Butterfly Effect -->
+<div class="relative aspect-[4/5] lg:col-span-1 rounded-xl overflow-hidden shadow-xl group">
+<img alt="underwater butterfly stroke" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAb5urpFWbIdQDPtxutkWX2kqaw2nX9tV1w2-e6pSFnRICwLWty7w7RiD-L_lsE_MBac9NmQ83a-cdSvTtlkzyVbL39p1lTXoLfjEurt1-LJvjYAfb5Ce9L9ZYc3qP3D3z14u4kzKQx9Uq4c0gvpuWmm3KE8FecxxKfgHeQgQSaDX9a81wfmS1ilDK-k4tFq9M0PT1RTfUVEtF2mSY7bdSW6gHue8dNA-7MkG4DV8A9zCL8Exu2eNPP3SCHE9Ia0j_xR3H3o02fEMw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8">
+<h3 class="text-white font-serif text-2xl font-bold mb-2">Power performance </h3>
+<p class="text-white/80 text-sm font-body">Train with precision using Prostorm swim paddles.</p>
+</div>
+</div>
+<!-- Highlight 2: Neural Flow -->
+<div class="relative aspect-[4/5] lg:col-span-1 rounded-xl overflow-hidden shadow-xl group">
+<img alt="swimmer focus and precision" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2vRiGPMumLw7AClqzPJMDPoOitMBoFeMFYZVVtor1-J2DvlJNGvNA5tyDwI2dwX5C_5XFHnpQ70pWCklA-aKcm6R_Sdg45nUVlF6fS4iARHTg8u2qiM6dkHlYstUUwK2BlnLober_xKUofN_nN8PazbrOZXcdtg9ETzV1Anwle4Rqj5eDk4J8wxTLkhCxvaiDkrFE0_Xy2JuobHxzhgPMoiOwxSW-8JDJSbl1w_7klBOmew4XARbPBF3PokpfWn8xz-HcQuVMF1Q"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8">
+<h3 class="text-white font-serif text-2xl font-bold mb-2">Choose Your Style</h3>
+<p class="text-white/80 text-sm font-body">available in multiple colors to match your energy and personality.</p>
+</div>
+</div>
+<!-- Highlight 3: Equipment Precision -->
+<div class="relative aspect-[4/5] lg:col-span-1 rounded-xl overflow-hidden shadow-xl group">
+<img alt="close up of swimming goggles and cap" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiLc87ZIWrPVSQNkW8zAemnalYmPDMJzvwcoNUA2y1IJNeAfi15vLnHzSDFAJPhJhvN1snwknE-1ird668IPl0uPcv4_jrsUzHNyrM7pzfH-h0C8VDwdthf3-PL4NqhvTLhaya5ketHyet0HMve5C1ZvuOHHFhlQRcmOQ22OrwZakzOwlrgrsTzUXCkfXthJuaOteGZ9z2P80HEsTgWGGt435en2vC8Tk_k6f4ecuH2JxyjQS-oUiz2FuqO7JcM7UuLAMXstFoXuY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8">
+<h3 class="text-white font-serif text-2xl font-bold mb-2">Perfect Fit</h3>
+<p class="text-white/80 text-sm font-body">From S to XL , Prostorm paddles adapt to every swimmer.</p>
+</div>
+</div>
+<!-- Highlight 4: The Start Block -->
+<div class="relative aspect-[16/9] md:col-span-2 lg:col-span-2 rounded-xl overflow-hidden shadow-xl group">
+<img alt="swimmer taking off from the start block" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC32v1Wtb6BlyCU9nxk6060GHVanWdZjZ1NFacWZPYSHxfWQIUMNCX7n5hbPdMKZYo2WyDPqJiuqlrJyfuDaf9rhoZNkgUH6XneLq0vTpabl8h3O-ERb_9rp9NEqRu9fpD5yFdnojDzsKcLQqzgFY53-GePoCPpX8lv6WDfWVDmLadskpp4YPsZd2K4OzJmLQvVguSjxlCbqtrwwhOg7A_sheEVe9r8RZpgsb2lp_ljS5saRZdbwAhpbbaKbDLzk1h0AMG3GCrUp-s"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8">
+<h3 class="text-white font-serif text-3xl font-bold mb-2">Smart Design </h3>
+<p class="text-white/80 font-body">Ergonomic shape with optimized holes for better water feel and reduced strain.</p>
+</div>
+</div>
+<!-- Highlight 5: Serene Environment -->
+<div class="relative aspect-[4/5] lg:col-span-1 rounded-xl overflow-hidden shadow-xl group">
+<img alt="empty pristine swimming pool at dawn" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkpc2COSA6lHkIxKtgaTyamP2YUOurxfXIAtyXvPXkABkTvF-drrz19DczPQZNP70BM0YvuysQc1ZrkG0Xvy0A5aPPfGAhgTdjdJnNvktEWYsSiBNhVlmDWSgF4gLbkTjGUodNKSbOonLSCKD94f2ibmXjpKoKHC9EggnLqOhzUDgRoGWCLPHHgLjB8luB1KrkJv5O90eqf3ItUnx5Vu-hX6pJEnfEKyunijKAHPzxSSPqo0_XUjw1XuAJRgsEMXEFmhGqPuXqI4I"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8">
+<h3 class="text-white font-serif text-2xl font-bold mb-2">Built For Strenght </h3>
+<p class="text-white/80 text-sm font-body">increase resistance and develop upper-body power with every session .</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Price Section -->
+<section class="py-24 bg-surface" id="pricing">
+<div class="max-w-7xl mx-auto px-8 text-center border-t border-outline-variant/30 pt-24">
+<p class="font-serif text-4xl font-bold text-primary mb-2">Price: 2600 DA</p>
+<p class="text-on-surface-variant font-body">Digital Access &amp; Limited  Edition Included</p>
+</div>
+</section>
+</main>
+<!-- Simplified Footer -->
+<footer class="bg-slate-50 dark:bg-slate-950 w-full border-t border-slate-200 dark:border-slate-800">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-12 w-full max-w-screen-2xl mx-auto gap-8">
+<div class="font-serif text-xl font-black text-blue-900 dark:text-blue-100">Fluid Authority</div>
+<div class="flex flex-wrap justify-center gap-8">
+<span class="font-sans text-xs tracking-wide uppercase text-slate-500">Privacy Policy</span>
+<span class="font-sans text-xs tracking-wide uppercase text-slate-500">Terms of Service</span>
+</div>
+<div class="text-slate-500 dark:text-slate-400 font-sans text-xs tracking-wide uppercase">
+                © 2026 prostorm Authority. All rights reserved.
+            </div>
+</div>
+</footer>
+</body></html>
